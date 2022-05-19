@@ -1,0 +1,14 @@
+@use "_navbarTop.scss";
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+// Custom colors for bootstap
+$primary: #78cbfc;
+$secondary: #fffafa;
+$light: #f0ffff;
+
+@import "bootstrap/scss/bootstrap";
