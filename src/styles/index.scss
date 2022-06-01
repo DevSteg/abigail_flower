@@ -1,14 +1,14 @@
 @use "_navbarTop.scss";
+@use "_footer.scss";
+@use "../pages/home/home";
+@import url("https://fonts.googleapis.com/css2?family=Bevan&display=swap");
 
-body {
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-// Custom colors for bootstap
-$primary: #78cbfc;
-$secondary: #fffafa;
-$light: #f0ffff;
-
-@import "bootstrap/scss/bootstrap";
+body {
+	font-family: "Bevan", cursive;
+}

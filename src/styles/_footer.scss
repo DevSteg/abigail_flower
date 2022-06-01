@@ -1,0 +1,31 @@
+@import "./variables";
+
+.footer {
+	background: $primary;
+	width: 100%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 50px 100px;
+	margin-top: -30px;
+}
+
+.footer-links-div {
+	display: flex;
+	align-items: center;
+}
+
+.footer-nav-link {
+	margin-left: 20px;
+	color: $secondary;
+}
+
+.logo-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.af-logo-small {
+	margin-left: -50px;
+	width: 100px;
+}
