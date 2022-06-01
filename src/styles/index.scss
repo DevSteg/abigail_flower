@@ -1,6 +1,7 @@
 @use "_navbarTop.scss";
 @use "_footer.scss";
 @use "../pages/home/home";
+@use "../pages/about/about";
 @import url("https://fonts.googleapis.com/css2?family=Bevan&display=swap");
 
 * {
@@ -11,4 +12,8 @@
 
 body {
 	font-family: "Bevan", cursive;
+}
+
+a {
+	text-decoration: none;
 }

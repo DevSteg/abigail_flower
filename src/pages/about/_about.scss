@@ -1,0 +1,30 @@
+@import "/src/styles/variables";
+
+.about-title {
+	text-align: center;
+	color: $primary;
+	font-size: 4vw;
+	margin-top: 50px;
+}
+
+.about-main {
+	text-align: center;
+	color: $charcoal;
+	margin: 50px 100px 100px 100px;
+	padding: 0 100px;
+}
+
+.about-greeting {
+	color: $primary;
+	font-size: 3vw;
+}
+
+.about-para-block {
+	font-size: 1.2vw;
+	margin-top: 50px;
+	letter-spacing: 1.2px;
+}
+
+.social-block {
+	margin-top: 60px;
+}
