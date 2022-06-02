@@ -1,4 +1,5 @@
 @import "./variables";
+@import "./mixins";
 
 .footer {
 	background: $primary;
@@ -15,8 +16,7 @@
 }
 
 .footer-nav-link {
-	margin-left: 20px;
-	color: $secondary;
+	@include nav-link;
 }
 
 .logo-div {
@@ -26,6 +26,6 @@
 }
 
 .af-logo-small {
-	margin-left: -50px;
+	margin-left: -200px;
 	width: 100px;
 }

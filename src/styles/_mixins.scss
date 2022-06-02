@@ -1,0 +1,15 @@
+@import "./variables";
+
+@mixin page-title {
+	text-align: center;
+	color: $primary;
+	font-size: 4vw;
+	margin-top: 50px;
+}
+
+@mixin nav-link {
+	color: $secondary;
+	&:hover {
+		color: #4198ca;
+	}
+}
