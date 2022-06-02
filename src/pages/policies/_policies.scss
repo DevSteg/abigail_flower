@@ -1,0 +1,27 @@
+@import "/src/styles/variables";
+@import "/src/styles/mixins";
+
+.policies-title {
+	@include page-title;
+}
+
+.policies-section {
+	margin: 50px 100px;
+}
+
+.policy-article {
+	margin-top: 35px;
+	p {
+		margin: 20px 0 0 30px;
+	}
+}
+
+.policy-sub-title {
+	color: $primary;
+}
+
+.thank-you {
+	text-align: center;
+	margin-bottom: 100px;
+	color: $primary;
+}

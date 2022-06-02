@@ -2,7 +2,8 @@
 @use "_footer.scss";
 @use "../pages/home/home";
 @use "../pages/about/about";
-@import url("https://fonts.googleapis.com/css2?family=Bevan&display=swap");
+@use "../pages/policies/policies";
+@import url("https://fonts.googleapis.com/css2?family=Bevan&family=Fjord+One&display=swap");
 
 * {
 	margin: 0;
@@ -12,6 +13,10 @@
 
 body {
 	font-family: "Bevan", cursive;
+}
+
+p {
+	font-family: "Fjord one", serif;
 }
 
 a {
