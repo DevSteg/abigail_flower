@@ -1,4 +1,5 @@
 import React from "react";
+import { Nav } from "react-bootstrap";
 import afLogo from "../assets/images/af-logo.svg";
 
 const Footer = () => {
@@ -6,12 +7,12 @@ const Footer = () => {
 		<>
 			<div className="footer">
 				<div className="footer-links-div">
-					<a className="footer-nav-link">
-						<h6>Contact</h6>
-					</a>
-					<a className="footer-nav-link">
-						<h6>Policies</h6>
-					</a>
+					<Nav.Link href="/contact">
+						<h6 className="footer-nav-link">Contact</h6>
+					</Nav.Link>
+					<Nav.Link href="/policies">
+						<h6 className="footer-nav-link">Policies</h6>
+					</Nav.Link>
 				</div>
 				<div className="logo-div">
 					<img
