@@ -7,6 +7,9 @@
 
 .policies-section {
 	margin: 50px 100px;
+	@media screen and (max-width: 450px) {
+		margin: 50px 10px;
+	}
 }
 
 .policy-article {

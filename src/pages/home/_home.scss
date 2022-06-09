@@ -1,14 +1,20 @@
 @import "/src/styles/variables";
 
 .home-body {
-	background: url("/src/assets/images/bg_img_top.png") no-repeat center fixed;
+	// background: url("/src/assets/images/bg_img_top.png") no-repeat center fixed;
 	background-size: cover;
 	height: 100vh;
 	padding: 30px;
+	@media screen and (max-width: 650px) {
+		height: 90vh;
+	}
 }
 
 .af-logo {
 	margin-top: 1.5%;
+	@media screen and (max-width: 650px) {
+		margin-top: 15%;
+	}
 }
 
 .cloud-btn-div {
@@ -16,6 +22,9 @@
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
+	@media screen and (max-width: 650px) {
+		margin-top: 25%;
+	}
 }
 
 .cloud-btn-title {
@@ -25,18 +34,32 @@
 	font-weight: 900;
 	letter-spacing: 1.5px;
 	color: $primary;
+	@media screen and (max-width: 650px) {
+		font-size: 1.3rem;
+		top: 65px;
+		left: 20px;
+	}
 }
 
 .cloud-btn-img {
 	width: 250px;
+	@media screen and (max-width: 650px) {
+		width: 160px;
+	}
 }
 
 .cloud-border-div {
 	margin-top: -110px;
+	@media screen and (max-width: 650px) {
+		margin-top: -40px;
+	}
 }
 
 .insta-div {
 	background-color: $secondary;
 	margin-top: -50px;
 	height: 70vh;
+	@media screen and (max-width: 650px) {
+		margin-top: -25px;
+	}
 }

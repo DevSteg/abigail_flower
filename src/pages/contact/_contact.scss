@@ -7,6 +7,9 @@
 
 .contact-section {
 	margin: 100px;
+	@media screen and (max-width: 650px) {
+		margin: 50px 30px;
+	}
 }
 
 .contact-form {

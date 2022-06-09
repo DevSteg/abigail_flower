@@ -8,11 +8,21 @@
 	grid-template-columns: auto auto auto;
 	padding: 50px 100px;
 	margin-top: -30px;
+	@media screen and (max-width: 650px) {
+		padding: 50px 10px;
+	}
+	@media screen and (max-width: 500px) {
+		margin-top: -15px;
+	}
 }
 
 .footer-links-div {
 	display: flex;
 	align-items: center;
+	@media screen and (max-width: 650px) {
+		display: flex;
+		flex-direction: column;
+	}
 }
 
 .footer-nav-link {
@@ -28,4 +38,7 @@
 .af-logo-small {
 	margin-left: -200px;
 	width: 100px;
+	@media screen and (max-width: 650px) {
+		margin-left: 0px;
+	}
 }
