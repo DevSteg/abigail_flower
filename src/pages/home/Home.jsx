@@ -2,12 +2,19 @@ import React from "react";
 import afLogo from "/src/assets/images/abigail_flower.svg";
 import cloud from "/src/assets/images/cloud.svg";
 import cloudsBorder from "/src/assets/images/clouds_top_border.svg";
+import bgImg from "/src/assets/images/bg_img_top.png";
+import "./_home.scss";
 import { Link } from "react-router-dom";
 
 const Home = () => {
 	return (
 		<>
-			<div className="home-body">
+			<div
+				className="home-body"
+				style={{
+					background: `url('${bgImg}') no-repeat center fixed`,
+				}}
+			>
 				<div className="home-header">
 					<div className="logo-div">
 						<img src={afLogo} alt="Abigail Flower Logo" className="af-logo" />

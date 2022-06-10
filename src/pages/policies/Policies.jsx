@@ -3,6 +3,7 @@ import Shipping from "./Shipping";
 import International from "./International";
 import FinalSales from "./FinalSales";
 import Disclaimer from "./Disclaimer";
+import "./_policies.scss";
 
 const Policies = () => {
 	return (

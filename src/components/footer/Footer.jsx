@@ -1,6 +1,7 @@
 import React from "react";
 import { Nav } from "react-bootstrap";
-import afLogo from "../assets/images/af-logo.svg";
+import afLogo from "/src/assets/images/af-logo.svg";
+import "./_footer.scss";
 
 const Footer = () => {
 	return (
