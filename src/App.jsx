@@ -4,13 +4,14 @@ import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Policies from "./pages/policies/Policies";
 import Contact from "./pages/contact/Contact";
+import Login from "./pages/login/Login";
 import "./styles/_app.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
 	return (
-		<div className="App">
-			<header className="App-header">
+		<div className="app">
+			<header className="app-header">
 				<NavbarTop />
 			</header>
 			<main>
@@ -20,6 +21,7 @@ function App() {
 						<Route path="/about" element={<About />} />
 						<Route path="/contact" element={<Contact />} />
 						<Route path="/policies" element={<Policies />} />
+						<Route path="/login" element={<Login />} />
 					</Routes>
 				</BrowserRouter>
 			</main>

@@ -1,0 +1,28 @@
+@use "/src/styles/variables" as *;
+@use "/src/styles/mixins" as *;
+
+.login-title {
+	@include page-title;
+}
+
+.login-section {
+	margin: 100px;
+	@media screen and (max-width: 650px) {
+		margin: 50px 30px;
+	}
+}
+
+.login-form {
+	font-family: $fjord;
+}
+
+.login-form-label {
+	font-family: $bevan;
+	color: $primary;
+}
+
+.login-form-btn {
+	font-family: $bevan;
+	font-size: 1.2rem;
+	@include nav-link;
+}
