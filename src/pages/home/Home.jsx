@@ -2,7 +2,7 @@ import React from "react";
 import afLogo from "/src/assets/images/abigail_flower.svg";
 import cloud from "/src/assets/images/cloud.svg";
 import cloudsBorder from "/src/assets/images/clouds_top_border.svg";
-import bgImg from "/src/assets/images/bg_img_top.png";
+import bgImg from "/src/assets/images/bg_img_top.webp";
 import "./_home.scss";
 import { Link } from "react-router-dom";
 
