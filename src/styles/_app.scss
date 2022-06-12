@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bevan&family=Fjord+One&display=swap");
+@use "./variables" as *;
 
 * {
 	margin: 0;
@@ -7,11 +7,11 @@
 }
 
 body {
-	font-family: "Bevan", cursive;
+	font-family: $bevan;
 }
 
 p {
-	font-family: "Fjord one", serif;
+	font-family: $fjord;
 }
 
 a {

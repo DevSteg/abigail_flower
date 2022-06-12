@@ -1,9 +1,8 @@
-@import "/src/styles/variables";
-@import "/src/styles/mixins";
+@use "/src/styles/variables" as *;
+@use "/src/styles/mixins" as *;
 
 .footer {
 	background: $primary;
-	width: 100%;
 	display: grid;
 	grid-template-columns: auto auto auto;
 	padding: 50px 100px;

@@ -1,5 +1,5 @@
-@import "/src/styles/variables";
-@import "/src/styles/mixins";
+@use "/src/styles/variables" as *;
+@use "/src/styles/mixins" as *;
 
 .contact-title {
 	@include page-title;
@@ -13,16 +13,16 @@
 }
 
 .contact-form {
-	font-family: "Fjord one", serif;
+	font-family: $fjord;
 }
 
 .form-label {
-	font-family: "Bevan", cursive;
+	font-family: $bevan;
 	color: $primary;
 }
 
 .form-btn {
-	font-family: "Bevan", cursive;
+	font-family: $bevan;
 	font-size: 1.2rem;
 	@include nav-link;
 }
