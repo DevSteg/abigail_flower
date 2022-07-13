@@ -5,8 +5,12 @@ import About from "./pages/about/About";
 import Policies from "./pages/policies/Policies";
 import Contact from "./pages/contact/Contact";
 import Login from "./pages/login/Login";
+import Register from "./pages/register/Register";
+import Profile from "./pages/profile/profile";
 import "./styles/_app.scss";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
 	return (
@@ -15,15 +19,15 @@ function App() {
 				<NavbarTop />
 			</header>
 			<main>
-				<BrowserRouter>
-					<Routes>
-						<Route path="" element={<Home />} />
-						<Route path="/about" element={<About />} />
-						<Route path="/contact" element={<Contact />} />
-						<Route path="/policies" element={<Policies />} />
-						<Route path="/login" element={<Login />} />
-					</Routes>
-				</BrowserRouter>
+				<Routes>
+					<Route path="" element={<Home />} />
+					<Route path="/about" element={<About />} />
+					<Route path="/contact" element={<Contact />} />
+					<Route path="/policies" element={<Policies />} />
+					<Route path="/login" element={<Login />} />
+					<Route path="/signup" element={<Register />} />
+				</Routes>
+				<ToastContainer />
 			</main>
 			<footer>
 				<Footer />

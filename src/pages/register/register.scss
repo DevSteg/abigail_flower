@@ -1,0 +1,28 @@
+@use "/src/styles/variables" as *;
+@use "/src/styles/mixins" as *;
+
+.register-title {
+	@include page-title;
+}
+
+.register-section {
+	margin: 100px;
+	@media screen and (max-width: 650px) {
+		margin: 50px 30px;
+	}
+}
+
+.register-form {
+	font-family: $fjord;
+}
+
+.register-form-label {
+	font-family: $bevan;
+	color: $primary;
+}
+
+.register-form-btn {
+	font-family: $bevan;
+	font-size: 1.2rem;
+	@include nav-link;
+}
